@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rpc=${SOL_RPC:-"https://api.mainnet-beta.solana.com"}
+rpc=${SOL_RPC:-""}
 command="/root/.cargo/bin/ore --rpc $rpc --keypair /root/wallet.json claim"
 
 while true; do
